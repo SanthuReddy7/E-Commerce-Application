@@ -21,7 +21,7 @@
         <h3>
         <a href="<c:url value="/admin/productInventory"/>">ProductInventory</a>
         </h3>
-        <p>Here you csn view, check and modify the product Inventory>!</p>
+        <p>Here you can view, check and modify the product Inventory>!</p>
 
         <%@include file="/WEB-INF/views/template/footer.jsp"%>
 

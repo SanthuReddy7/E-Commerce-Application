@@ -30,7 +30,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="#" alt="image" style="width:100%; height: 300px"/>
+                    <img src="<c:url value="/resources/images/${product.productId}.png"/> " alt="image"
+                         style="width:100%"/>
                 </div>
                 <div class="col-md-5">
                     <h3>${product.productName}</h3>
@@ -45,7 +46,6 @@
                         <strong>Condition</strong>:${product.productCondition}
                     </p>
                     <p><strong>Price</strong>:<h4>${product.productPrice} USD</h4>
-                    </p>
 
                 </div>
             </div>
